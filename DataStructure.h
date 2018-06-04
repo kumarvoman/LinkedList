@@ -14,8 +14,18 @@ struct DLNode
 };
 
 //structure for stack
+struct stackNode
+{
+    int data;
+    struct sNode *next;
+};
 
 //structure for queue
+struct queue
+{
+    struct stackNode *stack1;
+    struct stackNode *stack2;
+};
 
 //structure for tree
 
